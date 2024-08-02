@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,28 +15,72 @@
     <i>contact</i>
     <i>blog</i>
     <i>email</i>
-    
+
 </nav>
 
 <body>
     <!-- escribimos lo que necesitamos-->
     <p>HOLI COMO ESTAS</p>
-    <div id="container" widht="200px", height="600px">
-    <img src="https://i.pinimg.com/474x/5e/fa/ac/5efaacdbe1b1b4abe50a75899d00f62d.jpg" alt="Zoro">
+    <div id="container" widht="200px" , height="600px">
+        <img src="https://i.pinimg.com/474x/5e/fa/ac/5efaacdbe1b1b4abe50a75899d00f62d.jpg" alt="Zoro">
 
-     <video width="500" controls >
-        <source src="assets/conejo.mp4" type="video/mp4">
-        <source src="conejo.ogg" type="video/ogg">
-     </video>
+        <video width="500" controls>
+            <source src="assets/conejo.mp4" type="video/mp4">
+            <source src="conejo.ogg" type="video/ogg">
+        </video>
 
-     <audio src="assets/horse.ogm" type="audio/ogm"controls>
+        <audio src="assets/horse.ogm" type="audio/ogm" controls>
 
-     </audio>
+        </audio>
 
-     <!-- iFrame-->
-     <iframe name="uao" src="https://www.youtube.com/embed/nlXqp3FVrq8?si=-UsbMvh9sutsStP0" frameborder="0"></iframe>
+        <!-- iFrame-->
+        <iframe name="uao" src="https://www.youtube.com/embed/PNskxFNckBI?si=JToYaxxJo-pKdNk5" frameborder="0"></iframe>
+        <!-- fin iFrame-->
+
     </div>
+    <!-- TABLA -->
+    <table>
+        <tr>
+            <th><video width="500" controls>
+                    <source src="assets/conejo.mp4" type="video/mp4">
+                    <source src="conejo.ogg" type="video/ogg">
+                </video></th>
+            <th><audio src="assets/horse.ogm" type="audio/ogm" controls>
 
-    
+                </audio></th>
+            <th> <iframe name="uao" src="https://www.youtube.com/embed/PNskxFNckBI?si=JToYaxxJo-pKdNk5"
+                    frameborder="0"></iframe>
+            </th>
+
+        </tr>
+    </table>
+
+    <!--formulario-->
+    <form method="post" action="">
+        <label for="">nombre</label>
+        <input type="text" name="Nombre" placeholder="digite el nombre">
+        <label for="">Password</label>
+        <input type="password">
+        <label for="">Correo</label>
+        <input type="email">
+        <input type="date" placeholder="Fecha de nacimiento">
+        <input type="checkbox">
+        <textarea name="Description" id="" cols="30" rows="10"></textarea>
+        <button>enviar</button>
+    </form>
+
+    <form action="" method="post">
+        <select name="" id="">
+            <option disable selected> elige la opcion</option>
+            <option value="1">opcion 1</option>
+            <option value="2">opcion 2</option>
+            <option value="3">opcion 3</option>
+            <option value="4">opcion 4</option>
+        </select>
+        <input type="submit" value="enviar1" n>
+    </form>
+
+
 </body>
+
 </html>
